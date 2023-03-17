@@ -1,0 +1,187 @@
+.titulo_bienvenida{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    background-color: #e4e4e8;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    box-shadow: 0 7px 8px -3px grey;
+    position: fixed;
+    width: 100%;
+    margin-top: -10px;
+    z-index: 99;
+}
+.container{
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+}
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    position: relative;
+}
+.header-section div{
+    position: relative;
+}
+.header-section p{
+    position: absolute;
+    top: -24px;
+    right: -8px;
+    background-color: #fff;
+    padding: 1px 6px;
+    border-radius: 50%;
+    color: blue;
+    font-weight: 700;
+    font-family: system-ui;
+    line-height: 18px;
+}
+.logo{
+    width: 120px;
+}
+
+.cart{
+    width: 39px;
+    height: 38px;
+    cursor: pointer;
+    
+}
+.cart-products{
+    position: absolute!important;
+    top: 82px;
+    right: -18px;
+    background-color: #fff;
+    padding: 0 18px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    display: none;
+    min-width: 29px;
+}
+
+.cart:hover{
+    margin-bottom: 16px;
+    transition-duration: .4s;
+    transform: scale(1.5) rotate(360deg) scale(1.2);
+
+    
+}
+
+
+
+
+
+
+
+
+.products{
+    padding-top: 185px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+    grid-gap: 10px;
+    justify-items: center;
+}
+
+.carts{
+    max-width: 250px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    padding-bottom: 34px;
+    margin-bottom: 40px;
+}
+.carts img{
+    padding-top: 25px;
+    width: 90%;
+    aspect-ratio: 1;
+    object-fit: contain;
+
+}
+.carts p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    padding: 0 20px;
+    margin-bottom: 24px;
+    
+}
+.carts div p{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background-color: rgb(235, 165, 0);
+    color: #fff;
+    padding: 1px 6px 3px 20px;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+.carts div{
+    position: relative;
+}
+.carts a{   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    background: brown;
+    padding: 9px 23px;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.carts a:hover{
+    background: rgb(240, 255, 200);
+    color: blue;
+    border: solid 2px blue;
+    transition-duration: .4s;
+    transform: scale(1.5)
+}
+
+
+
+
+
+.card-items{
+    display: table;
+    
+}
+
+
+
+
+p.close-btn{
+    top: -4px;
+    right: 6px;
+    cursor: pointer;
+    color: #000;
+}
+
+.btn_borrar_elemento {
+    background-color: #ff5a5f;
+    border: none;
+    color: white;
+    padding: 3px 8px;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn_borrar_elemento:hover {
+    background-color: rgb(255, 208, 0);
+    border: none;
+    color: #cf0000;
+    padding: 3px 8px;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
