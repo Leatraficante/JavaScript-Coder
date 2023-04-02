@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "title": "whirlpool",
+        "img": "Imagenes/Whirl.png"
+    },
+    {
+        "id": 2,
+        "title": "apple",
+        "img": "Imagenes/Apple.png"
+    },
+    {
+        "id": 3,
+        "title": "samsung",
+        "img": "Imagenes/Samsung.png"
+    },
+    {
+        "id": 4,
+        "title": "siemens",
+        "img": "Imagenes/Siemens.png"
+    },
+    {
+        "id": 5,
+        "title": "lg",
+        "img": "Imagenes/LG.png"
+    },
+    {
+        "id": 6,
+        "title": "asus",
+        "img": "Imagenes/asus.png"
+    },
+    {
+        "id": 7,
+        "title": "bose",
+        "img": "Imagenes/bose.png"
+    }
+]

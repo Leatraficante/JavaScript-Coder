@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIenvenidos a ElectroPlus</title>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="header-section container">
+            <img class="logo" src="Imagenes/electros.png" width=40>
+            <h1 class="titulo_bienvenida">Bienvenidos a ElectroPlus</h1>
+            <div>
+                <img onclick="carro_flot(this)" class="cart" src="Imagenes/carrito-de-compras.png" alt="">
+            </div>
+            <div class="cart-products" id="products-id">
+                <p class="close-btn" onclick="btn_cerrar()">X</p>
+                <h3>Mi carrito</h3>
+                <div class="card-items">
+                    <table class="table">
+                        <tbody id="tbody" class="tbody"> </tbody>
+                    </table>
+
+
+                </div>
+                <h2>Total: $<strong class="precio_total">0</strong></h2>
+                <button id="finalizar-compra" class="btn-fin-compra" onclick="finalizarCompra()">Finalizar
+                    Compra</button>
+            </div>
+
+        </div>
+    </header>
+    <section class="container">
+        <div class="products">
+            <div class="carts">
+                <div>
+                    <img src="Imagenes/heladera.png" alt="">
+                    <p><span>700</span>$</p>
+                </div>
+                <h5 class="title">HELADERA</h5>
+                <a href="" data-id="1" class="btn-add-cart">AGREGAR AL CARRITO</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="Imagenes/TV.png" alt="">
+                    <p><span>450</span>$</p>
+                </div>
+                <h5 class="title">TV</h5>
+                <a href="" class="btn-add-cart" data-id="2">AGREGAR AL CARRITO</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="Imagenes/lavarropas.png" alt="">
+                    <p><span>590</span>$</p>
+                </div>
+                <h5 class="title">LAVARROPAS</h5>
+                <a href="" data-id="3" class="btn-add-cart">AGREGAR AL CARRITO</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="Imagenes/microo.png" alt="">
+                    <p><span>135</span>$</p>
+                </div>
+                <h5 class="title">MICROONDAS</h5>
+                <a href="" data-id="4" class="btn-add-cart">AGREGAR AL CARRITO</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="Imagenes/notebook.png" alt="">
+                    <p><span>560</span>$</p>
+                </div>
+                <h5 class="title">NOTEBOOK</h5>
+                <a href="" data-id="5" class="btn-add-cart">AGREGAR AL CARRITO</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="Imagenes/celu.png" alt="">
+                    <p><span>750</span>$</p>
+                </div>
+                <h5 class="title">CELULAR</h5>
+                <a href="" data-id="6" class="btn-add-cart">AGREGAR AL CARRITO</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="Imagenes/aire.png" alt="">
+                    <p><span>190</span>$</p>
+                </div>
+                <h5 class="title">AIRE AC</h5>
+                <a href="" data-id="7" class="btn-add-cart">AGREGAR AL CARRITO</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="Imagenes/scooter.png" alt="">
+                    <p><span>550</span>$</p>
+                </div>
+                <h5 class="title">SCOOTER</h5>
+                <a href="" data-id="8" class="btn-add-cart">AGREGAR AL CARRITO</a>
+            </div>
+
+    </section>
+    <footer>
+        <section id="banner-sponsors"></section>
+    </footer>
+    <script src="EntregaFinal-Traficante.js"></script>
+</body>
+
+</html>
